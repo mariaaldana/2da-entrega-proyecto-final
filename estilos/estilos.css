@@ -1,0 +1,305 @@
+
+body {
+  background-image: url("https://i.pinimg.com/originals/b9/7e/53/b97e53db4968677238063c241cdbb623.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  background-image: url("https://i.pinimg.com/originals/b9/7e/53/b97e53db4968677238063c241cdbb623.jpg");
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  color: lightcoral;
+  font-size: 100px;
+  letter-spacing: 100px;
+  border-top: dashed 5px #e7c886;
+  border-right: dashed 5px #eb86b5;
+  border-bottom: dashed 5px #eb86b5;
+  border-left: dashed 5px #e7c886;
+  text-align: center;
+}
+
+.jumbotron {
+  font-size: 30px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #424040;
+  background-color: #eee0e0;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+  color: #3f3d3d;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #eeb7a3;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.sec {
+  background-color: #eee0e0;
+  border: 2px solid salmon;
+}
+
+.sec h3 {
+  font-size: 40px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #e45e70;
+}
+
+.sec p {
+  text-align: center;
+  font-size: 20px;
+  color: #2a3642;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  height: 150px;
+}
+
+.carousel-indicators li {
+  height: 20px;
+  width: 20px;
+  border: 2px solid #dd8585;
+}
+
+footer {
+  background-image: url("https://i.pinimg.com/originals/b9/7e/53/b97e53db4968677238063c241cdbb623.jpg");
+}
+
+footer h3 {
+  text-align: center;
+  font-size: 40px;
+  color: #2a3642;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+footer h4 {
+  text-align: center;
+  font-size: 25px;
+  color: #746b57;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+footer ul li {
+  text-align: center;
+  font-size: 25px;
+  color: #726b5a;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  list-style: none;
+}
+
+footer img {
+  display: inline;
+  margin-left: 350px;
+}
+
+footer h6 {
+  font-size: 10px;
+  text-align: center;
+  line-height: 0.001;
+}
+
+footer p {
+  font-size: 20px;
+  text-align: center;
+  line-height: 0.001;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #726b5a;
+}
+
+header {
+  grid-area: header;
+}
+
+.galeria {
+  width: 100%;
+  min-height: 600px;
+  background-color: #eb971b;
+  display: -ms-grid;
+  display: grid;
+  padding: 20px;
+  grid-gap: 10px;
+}
+
+.item {
+  background-color: blueviolet;
+  border: 2px solid #fff;
+}
+
+.item:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.75s;
+  transition: all 0.75s;
+}
+
+.tituloGaleria {
+  background-color: #504f4f;
+  width: 100%;
+  height: 50px;
+  padding-bottom: 2px;
+  font-family: sans-serif;
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.item1 {
+  background-color: blue;
+  background-image: url(https://i.pinimg.com/originals/30/12/a7/3012a7063fb4706d78cf5b7bc45c1364.jpg);
+  background-size: cover;
+}
+
+.item2 {
+  background-color: brown;
+  background-image: url(https://ideastarget.com/wp-content/uploads/2020/07/Espo.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.item3 {
+  background-color: chartreuse;
+  background-image: url(https://fiestasycumples.com/wp-content/uploads/2013/02/invitaciones-de-bautizo-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.item4 {
+  background-color: darkgoldenrod;
+  background-image: url(https://www.misregalosconfotos.com/wp-content/uploads/2017/07/Imanes-Personalizados-madera-1-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.item5 {
+  background-color: darkolivegreen;
+  background-image: url(https://assets.stickermule.com/image/fetch/c_lfill,fl_lossy,f_auto,q_auto:best,w_auto/https://images.contentful.com/j0hp1k2v0p3q/47CQ6HtILSAoSSaGcKiIuS/14989e6374e3baaf234e34f5700c1c35/Introducing-custom-die-cut-magnets.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.item6 {
+  background-color: dimgray;
+  background-image: url(https://todobricolaje.net/wp-content/uploads/2020/05/llaveros-personalizados.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.item7 {
+  background-color: gold;
+  background-image: url(https://m.media-amazon.com/images/I/61OxZcLHhBL._AC_UY395_.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.item8 {
+  background-color: indigo;
+  background-image: url(https://i.pinimg.com/originals/42/88/bb/4288bb82880b42c2fb07c59dc26600ef.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+@media only screen and (max-width: 319px){
+  .item{
+      height: 200px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 750px){        
+.galeria{
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 200px);                 
+}
+}
+@media only screen and (min-width: 750px){
+.galeria{
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 200px);    
+}
+  .item1 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    grid-row: 1/3;
+  }
+  .item2 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+  }
+  .item3 {
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 1;
+    grid-column: 4/5;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+  }
+  .item4 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+  }
+  .item5 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+  }
+  .item6 {
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 1;
+    grid-column: 4/5;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 4;
+    grid-row: 2/6;
+  }
+  .item7 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+  }
+  .item8 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+  }
+
+
+.container3 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 200px;
+      grid-template-rows: 200px;
+  gap: 20px 20px;
+  grid-auto-flow: row;
+  grid-template-areas: "footer";
+  border-top: 6px solid #ebb9b9; }
+}
